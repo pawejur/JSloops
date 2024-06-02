@@ -1,0 +1,14 @@
+<html>
+<head>
+<div style="color:red;font-size:18px;">
+<script language="JavaScript">
+for (i=0;i<=39;i++){
+    w_jur=i*i+i+41;
+    document.write("i="+i+" w("+i+")="+w_jur+"<br>")
+                
+    }
+</script>
+</div>
+</head>
+<body></body>
+</html>

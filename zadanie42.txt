@@ -1,0 +1,12 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+for(i_j=1;i_j<=10;i_j++)
+{
+document.write("wyświetlam "+i_j+" raz"+" Jureczko"+"<br>");
+}
+</script>
+</div>
+</body>
+</html>

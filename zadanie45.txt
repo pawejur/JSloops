@@ -1,0 +1,18 @@
+<html>
+<body>
+<div style="color:red;font-size:42px;">
+<script language="JavaScript">
+koniec = prompt("podaj liczbe","");
+for(i_j=1;i_j<=10;i_j++)
+{
+if (koniec%2 == 0){
+    document.write("<div style=\"color:blue;display:inline;\">Jureczko</div>"+"<br>");
+}
+else{
+    document.write("<div style=\"color:green;display:inline;\">Paweł</div>"+"<br>");
+}
+}
+</script>
+</div>
+</body>
+</html>

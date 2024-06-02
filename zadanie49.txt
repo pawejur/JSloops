@@ -1,0 +1,18 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+n_jur = prompt("podaj liczbe","");
+silnia_jur = 1
+
+    for(i_j=1;i_j<=n_jur;i_j++)
+    {
+        silnia_jur = silnia_jur * i_j
+    }
+    document.write(silnia_jur)
+
+
+</script>
+</div>
+</body>
+</html>
