@@ -1,0 +1,26 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+do{
+    l1_t_jur = prompt("podaj liczbe1","");
+    l2_t_jur = prompt("podaj liczbe2","");
+}while(((l1_t_jur<20)||(l1_t_jur>60))||((l2_t_jur<20)||(l2_t_jur>60)))
+
+pocz_jur = prompt("podaj wielkosc początkową","")
+tekst_jur = prompt("podaj tekst do wyświetlenia","")
+
+if(l1_t_jur<l2_t_jur){
+    for(i=pocz_jur;i<100;i+=5){
+        document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_jur+"<br></p>");
+    }
+}else{
+    for(i=pocz_jur;i>0;i-=5){
+        document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_jur+"<br></p>");
+    }
+}
+
+</script>
+</div>
+</body>
+</html>
